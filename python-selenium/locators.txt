@@ -1,0 +1,15 @@
+locators.txt
+0 //header/div[1]/ul
+1 //div[@aria-controls="x-refine__group_1__0"]//h3[@class="x-refine__item"]
+2 .. //div[@aria-controls="x-refine__group_1__1"]//h3[@class="x-refine__item"][text()="Brand"] 
+  .. //div[@aria-controls="x-refine__group_1__2"]//h3[@class="x-refine__item"][text()="Color"]
+
+3. //div[@id="x-refine__group_1__1"]//span[@class="cbx x-refine__multi-select-cbx"]
+   //div[@class="x-refine__select__svg"]//span[text()="Blue"]
+
+4. //div[@class="s-item__info clearfix"]//span[contains(translate(., "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "abcdefghijklmnopqrstuvwxyz"), "hey dude wally")]
+
+5. //div[@class="gh-menu"]//div[@class="gh-submenu gh-eb-o"]//ul//li/a
+
+Right click on drop down was easier not letting the drop down close.
+Use break on subtree modifications by right clicking on xpaths
